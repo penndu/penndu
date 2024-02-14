@@ -1,0 +1,12 @@
+{
+  "name": "penndu",
+  "version": "4.0.9",
+  "description": "",
+  "main": "bsz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
