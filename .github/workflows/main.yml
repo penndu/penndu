@@ -1,0 +1,37 @@
+name: NPM Package Sync
+ 
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+ 
+jobs:
+  sync-npm:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - run: npm install
+    - name: NPM Publish
+      uses: JS-DevTools/npm-publish@v3.1.1
+      with:
+        # The NPM access token to use when publishing
+        token: ${{ secrets.NPM_TOKEN }}
+        # The NPM registry URL to use
+        registry: # optional
+        # The path to your package or its package.json file
+        package: # optional
+        # The distribution tag to publish
+        tag: # optional
+        # Determines whether the published package should be publicly visible, or restricted to members of your NPM organization.
+    
+        access: # optional
+        # Attach provenance statements when publishing.
+        provenance: # optional
+        # Version check and release strategy. If "all" (default), package will be published if its version is simply not yet published. If "upgrade", package will be published if its version is higher than the existing tag, according to semantic versioning.
+    
+        strategy: # optional
+        # Run npm with the --ignore-scripts flag as a security precaution. Enabled by default.
+    
+        ignore-scripts: # optional
+        # Run npm with the --dry-run flag to avoid actually publishing anything.
+        dry-run: # optional
