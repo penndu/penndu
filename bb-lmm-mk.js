@@ -100,7 +100,7 @@ const allCSS = `
 .video-wrapper video{max-height:30vh;}
 #tag-list .tag-span{position:relative;display:inline-block;margin:2rem auto;padding:0 10px;border-radius:4px;background:rgba(0,0,0,.08);line-height:12px;}
 #tag-list .tag-span:before{position:absolute;top:-1rem;right:5px;width:5px;height:5px;content:'x';font-size:1rem;}
-.bb-tool{display:none;justify-content:space-between;align-items:center;}
+.bb-tool{display:flex;justify-content:space-between;align-items:center;}
 .archive-btn,.reaction{display:inline-flex;}
 .archive-btn{opacity:.3;}
 #tag-list-all .tag-span{margin:.8rem 1rem 0 0;}
