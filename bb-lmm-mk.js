@@ -25,6 +25,9 @@ function loadCssCode(code){
   head.appendChild(style);
 }
 const allCSS = `
+#start-smile-svg {
+  fill: var(--start-smile-svg-fill-color, #ff5722);
+}
 #bber{margin-top:1rem;width:auto!important;min-height:100vh;}
 .bb-timeline ul{margin:0;padding:0;}
 .bb-timeline ul li{margin-bottom:3rem;list-style-type:none;}
@@ -39,7 +42,7 @@ const allCSS = `
 .bb-timeline .datacount{position:absolute;right:0;bottom:0;cursor:pointer;}
 .bb-timeline .datacount svg{margin:2px 5px;}
 .bb-timeline .bb-cont img[src*=emotion]{display:inline-block;width:auto;}
-.bb-timeline p{margin:0;margin:0;min-height:18px;color:#3b3d42;letter-spacing:1px;line-height:28px;}
+.bb-timeline p{margin:0;margin:0;min-height:18px;letter-spacing:1px;line-height:28px;}
 .bb-timeline pre{color:#aaa;}
 .bb-timeline pre p{display:inline-block;}
 .bb-timeline pre p:empty{display:none;}
