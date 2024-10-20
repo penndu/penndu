@@ -61,7 +61,7 @@ function indexTalk() {
     if (d) talk(d);
     else {
         fetch(bbCarouselMemo.api).then(res => res.json()).then(data => { // 更改地址
-            data = toText(data)
+            data = toText(data['memos'])
             talk(data);
             saveData('talk', data);
         })
