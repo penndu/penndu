@@ -241,25 +241,25 @@ function updateHTMl(data) {
             .replace(YOUTUBE_REG, "<div class='video-wrapper'><iframe src='https://www.youtube.com/embed/$1' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen title='YouTube Video'></iframe></div>")
 
         // 解析内置资源文件
-        if (data[i].resourceList && data[i].resourceList.length > 0) {
-            var resourceList = data[i].resourceList;
+        if (data[i].resources && data[i].resources.length > 0) {
+            var resources = data[i].resources;
             var imgUrl = '', resUrl = '', resImgLength = 0;
-            for (var j = 0; j < resourceList.length; j++) {
-                var resType = resourceList[j].type.slice(0, 5);
-                var resexlink = resourceList[j].externalLink;
+            for (var j = 0; j < resources.length; j++) {
+                var resType = resources[j].type.slice(0, 5);
+                var resexlink = resources[j].externalLink;
                 var resLink = ''
                 if (resexlink) {
                     resLink = resexlink
                 } else {
-                    fileId = resourceList[j].publicId || resourceList[j].filename
-                    resLink = memos + '/o/r/' + resourceList[j].id + '/' + fileId
+                    fileId = resources[j].publicId || resources[j].filename
+                    resLink = memos + '/o/r/' + resources[j].id + '/' + fileId
                 }
                 if (resType == 'image') {
                     imgUrl += '<div class="resimg"><img loading="lazy" src="' + resLink + '"/></div>'
                     resImgLength = resImgLength + 1
                 }
                 if (resType !== 'image') {
-                    resUrl += '<a target="_blank" rel="noreferrer" href="' + resLink + '">' + resourceList[j].filename + '</a>'
+                    resUrl += '<a target="_blank" rel="noreferrer" href="' + resLink + '">' + resources[j].filename + '</a>'
                 }
             }
             if (imgUrl) {
@@ -370,7 +370,7 @@ function getTotal() {
         // Do something for an error here
     });
 };
-//window.onload = getTotal();
+// window.onload = getTotal();
 // Memos Total End
 
 // Toggle Darkmode
