@@ -1,5 +1,519 @@
 [
     {
+        "name": "HeoSticker3D",
+        "type": "image",
+        "items": [
+            {
+                "key": "爱心眼",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a79e830a.png"
+            },
+            {
+                "key": "安睡",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a948b5c2.png"
+            },
+            {
+                "key": "傲娇",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8b3626e.png"
+            },
+            {
+                "key": "抱心",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a979376e.png"
+            },
+            {
+                "key": "抱熊",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a97df4f1.png"
+            },
+            {
+                "key": "暴富",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9b7f1b0.png"
+            },
+            {
+                "key": "被窝",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa901e22.png"
+            },
+            {
+                "key": "比心",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9c6941c.png"
+            },
+            {
+                "key": "必胜",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a960d934.png"
+            },
+            {
+                "key": "毕业",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9c69bb2.png"
+            },
+            {
+                "key": "憋气",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a972e5dc.png"
+            },
+            {
+                "key": "不好意思",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8993e7b.png"
+            },
+            {
+                "key": "擦汗",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a994eb96.png"
+            },
+            {
+                "key": "唱歌",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a90a7470.png"
+            },
+            {
+                "key": "吃堡",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8e1ebbd.png"
+            },
+            {
+                "key": "吃蛋糕",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8ee34c0.png"
+            },
+            {
+                "key": "吃瓜",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8e7fa17.png"
+            },
+            {
+                "key": "吃惊",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8e2bf98.png"
+            },
+            {
+                "key": "冲冲",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8be1206.png"
+            },
+            {
+                "key": "崇拜",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9548ae6.png"
+            },
+            {
+                "key": "厨神",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8c9eae8.png"
+            },
+            {
+                "key": "打哈欠",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9761f85.png"
+            },
+            {
+                "key": "大哭",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a92ebd1a.png"
+            },
+            {
+                "key": "呆住",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8febf9f.png"
+            },
+            {
+                "key": "淡定",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9e1c562.png"
+            },
+            {
+                "key": "得意",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a95be5b0.png"
+            },
+            {
+                "key": "点赞",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9fd6b4a.png"
+            },
+            {
+                "key": "调皮",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa9b5dc9.png"
+            },
+            {
+                "key": "独眼嘘",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa19aace.png"
+            },
+            {
+                "key": "读书",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa92110c.png"
+            },
+            {
+                "key": "赌气",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa9bca6e.png"
+            },
+            {
+                "key": "恶魔",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9677640.png"
+            },
+            {
+                "key": "耳机",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa8346ec.png"
+            },
+            {
+                "key": "发怵",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8cb88bd.png"
+            },
+            {
+                "key": "发烧",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8d5fe16.png"
+            },
+            {
+                "key": "发晕",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8d0c6ea.png"
+            },
+            {
+                "key": "烦闷",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa030d2f.png"
+            },
+            {
+                "key": "烦躁",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa030d2f.png"
+            },
+            {
+                "key": "飞吻",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aac4a900.png"
+            },
+            {
+                "key": "奋笔",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a93af1c5.png"
+            },
+            {
+                "key": "否定",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8fd8958.png"
+            },
+            {
+                "key": "尴尬",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a95135bc.png"
+            },
+            {
+                "key": "告白",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a90a1f66.png"
+            },
+            {
+                "key": "冠军",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8b618dd.png"
+            },
+            {
+                "key": "汗颜",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9c6a7a6.png"
+            },
+            {
+                "key": "好辣",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a93ecfca.png"
+            },
+            {
+                "key": "画家",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa49b768.png"
+            },
+            {
+                "key": "坏笑",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a922fcbb.png"
+            },
+            {
+                "key": "皇冠",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa538c39.png"
+            },
+            {
+                "key": "加油",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8c2003f.png"
+            },
+            {
+                "key": "煎蛋",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa09da62.png"
+            },
+            {
+                "key": "金星",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aaaa512b.png"
+            },
+            {
+                "key": "紧张",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa7a5868.png"
+            },
+            {
+                "key": "惊魂",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a96d5348.png"
+            },
+            {
+                "key": "惊讶",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a96b72e0.png"
+            },
+            {
+                "key": "敬礼",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a99bf4b6.png"
+            },
+            {
+                "key": "瞌睡",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa62ab2c.png"
+            },
+            {
+                "key": "酷盖",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aaa8b475.png"
+            },
+            {
+                "key": "酷心",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aaa8cc5f.png"
+            },
+            {
+                "key": "狂笑",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa15ea52.png"
+            },
+            {
+                "key": "窥探",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa7717f4.png"
+            },
+            {
+                "key": "拉链嘴",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a981e7a1.png"
+            },
+            {
+                "key": "泪汪汪",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9d8c93b.png"
+            },
+            {
+                "key": "冷汗",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8be4669.png"
+            },
+            {
+                "key": "礼物",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa6b0757.png"
+            },
+            {
+                "key": "灵感",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9e5654b.png"
+            },
+            {
+                "key": "旅行",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a99cceed.png"
+            },
+            {
+                "key": "么么",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8994446.png"
+            },
+            {
+                "key": "喵呜",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a90c7992.png"
+            },
+            {
+                "key": "墨镜惊",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a925523a.png"
+            },
+            {
+                "key": "墨镜酷",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a92e0999.png"
+            },
+            {
+                "key": "暖冬",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9aca7fe.png"
+            },
+            {
+                "key": "暖心",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9b7d538.png"
+            },
+            {
+                "key": "拍照",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a984bb69.png"
+            },
+            {
+                "key": "派对",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9e1257a.png"
+            },
+            {
+                "key": "盘算",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa5596b8.png"
+            },
+            {
+                "key": "泡澡",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9d4ae2b.png"
+            },
+            {
+                "key": "喷嚏",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9160265.png"
+            },
+            {
+                "key": "祈求",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa6b2b4c.png"
+            },
+            {
+                "key": "枪手指",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9b8fd0a.png"
+            },
+            {
+                "key": "窃喜",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa6d8b64.png"
+            },
+            {
+                "key": "青蛙帽",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aac41189.png"
+            },
+            {
+                "key": "雀跃",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aab65109.png"
+            },
+            {
+                "key": "生病",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa4665da.png"
+            },
+            {
+                "key": "生气",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa4657d0.png"
+            },
+            {
+                "key": "生日",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa3e63c8.png"
+            },
+            {
+                "key": "睡衣",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa607784.png"
+            },
+            {
+                "key": "思考",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9632955.png"
+            },
+            {
+                "key": "送花",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa9e9409.png"
+            },
+            {
+                "key": "叹号惊",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8dbe84d.png"
+            },
+            {
+                "key": "陶醉",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aab5b919.png"
+            },
+            {
+                "key": "天使",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a93217c4.png"
+            },
+            {
+                "key": "甜蜜",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa33965a.png"
+            },
+            {
+                "key": "听歌",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8fe9283.png"
+            },
+            {
+                "key": "偷看",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8b21ac3.png"
+            },
+            {
+                "key": "偷乐",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8a86be4.png"
+            },
+            {
+                "key": "头花",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a93a79c6.png"
+            },
+            {
+                "key": "徒步",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a957c410.png"
+            },
+            {
+                "key": "吐舌",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8ee4483.png"
+            },
+            {
+                "key": "围巾哆",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a922fc7f.png"
+            },
+            {
+                "key": "委屈巴巴",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a946844a.png"
+            },
+            {
+                "key": "无语",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9a0e406.png"
+            },
+            {
+                "key": "五体投地",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8993e7b.png"
+            },
+            {
+                "key": "捂脸笑",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9911ca4.png"
+            },
+            {
+                "key": "吓呆",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8f3b3e0.png"
+            },
+            {
+                "key": "仙人掌",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8a6b56e.png"
+            },
+            {
+                "key": "小伤",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a94c954f.png"
+            },
+            {
+                "key": "笑喷",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa77ee90.png"
+            },
+            {
+                "key": "泄气",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9d5b9b5.png"
+            },
+            {
+                "key": "星星眼",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9a91b82.png"
+            },
+            {
+                "key": "嘘",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9161ef9.png"
+            },
+            {
+                "key": "许愿",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa903edf.png"
+            },
+            {
+                "key": "眩晕",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa5ebd20.png"
+            },
+            {
+                "key": "摇滚",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9910d48.png"
+            },
+            {
+                "key": "叶后躲",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8d69c65.png"
+            },
+            {
+                "key": "疑惑",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa54242f.png"
+            },
+            {
+                "key": "荧棒",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa862937.png"
+            },
+            {
+                "key": "犹豫灯",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa107967.png"
+            },
+            {
+                "key": "晕圈",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9a93631.png"
+            },
+            {
+                "key": "炸毛",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9f113eb.png"
+            },
+            {
+                "key": "招呼",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a989a22d.png"
+            },
+            {
+                "key": "侦探",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a8a63fd3.png"
+            },
+            {
+                "key": "珍珠奶",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa1bfecd.png"
+            },
+            {
+                "key": "震惊",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aab7800c.png"
+            },
+            {
+                "key": "自拍",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa83f84a.png"
+            },
+            {
+                "key": "嘴馋",
+                "val": "https://bu.dusays.com/2026/07/01/6a449a9188dd9.png"
+            },
+            {
+                "key": "琢磨",
+                "val": "https://bu.dusays.com/2026/07/01/6a449aa278a63.png"
+            }
+        ]
+    },
+    {
         "name": "猫猫虫",
         "type": "image",
         "items": [
