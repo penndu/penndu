@@ -70,39 +70,6 @@ body.dark-theme {
         --color-memos-pre-bg: #2d333b;
     }
 }
-blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
-    margin: 0;
-}
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
-        Arial, "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei",
-        "Microsoft Yahei", "Segoe UI", sans-serif, serif;
-    color: var(--color-main);
-    background-color: var(--color-background);
-    box-sizing: border-box;
-    min-width: 200px;
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 45px;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-    margin: 0;
-}
-
-.title {
-    font-size: 1.5rem;
-}
-
 .pages a {
     color: var(--color-main);
     text-decoration: none;
@@ -142,7 +109,7 @@ blockquote {
 }
 
 .total {
-    text-align: left;
+    text-align: center;
 }
 
 .memos {
@@ -154,7 +121,6 @@ blockquote {
 }
 
 .memos a {
-    color: var(--color-link);
     text-decoration: none;
 }
 
@@ -178,7 +144,7 @@ blockquote {
 .memos__content:before {
     content: '';
     position: absolute;
-    background: var(--avatar-url) no-repeat;
+    background: url('https://cdn.dusays.com/avatar.png') no-repeat;
     background-size: contain;
     width: 40px;
     height: 40px;
@@ -191,7 +157,7 @@ blockquote {
 
 .memos__text {
     position: relative;
-    background: var(--color-text-bg);
+    background: var(--color-block);
     padding: 1rem;
     border-radius: 0.5rem;
     font-size: 1rem;
@@ -200,17 +166,17 @@ blockquote {
 .timeline {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: 当前rap;
     margin-bottom: 1.5rem;
 }
 
 .timeline:hover .memos__text:before {
-    background: var(--color-text-hover);
+    background: var(--block-hover);
     z-index: 1;
 }
 
 .timeline:hover .memos__text {
-    background: var(--color-text-hover);
+    background: var(--block-hover);
 }
 
 .memos__text {
@@ -237,7 +203,7 @@ blockquote {
     height: 14px;
     transform: rotate(45deg);
     border-radius: 3px;
-    background: var(--color-text-bg);
+    background: var(--color-block);
     z-index: 1;
 }
 
@@ -257,7 +223,7 @@ blockquote {
     background-color: var(--color-memos-pre-bg);
     padding-left: 0.25rem;
     padding-right: 0.25rem;
-    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier 新,monospace;
     font-size: .875rem;
     line-height: 1.5rem;
 }
@@ -326,18 +292,11 @@ blockquote {
     margin-top: 0.5rem;
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     gap: 0.5rem;
 }
 
-@media (min-width: 640px) {
-    .images-wrapper {
-        grid-template-columns:repeat(3,minmax(0,1fr));
-    }
-}
-
 .resimg {
-    width: 100%;
     overflow: hidden;
     border-radius: 0.25rem;
     --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
@@ -345,7 +304,7 @@ blockquote {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
     -ms-overflow-style: none;
     scrollbar-width: none;
-    height: 202px;
+    max-height: 404px;
 }
 
 .timeline img, .resimg img {
@@ -358,7 +317,6 @@ blockquote {
 }
 
 .tag-span {
-    margin: 0 0.25rem;
     color: var(--color-tag);
 }
 
@@ -367,16 +325,18 @@ blockquote {
 }
 
 .load-btn {
-    color: var(--color-main);
-    background-color: var(--color-text-bg);
-    margin-left: 50px;
+    color: var(--color-meta);
+    background-color: var(--color-block);
     border-radius: 8px;
     padding: 10px;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .load-btn:hover {
-    background-color: var(--color-text-hover);
+    background-color: var(--color-site-bg);
 }
 
 .post-preview {
