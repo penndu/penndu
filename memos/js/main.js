@@ -479,30 +479,40 @@ function getRelativeTime(date) {
     }
 }
 // Relative Time End
-// Toggle Darkmode
-const localTheme = window.localStorage && window.localStorage.getItem("theme");
+// 暗黑模式切换 - 优化版
+const storage = window.localStorage;
 const themeToggle = document.querySelector(".theme-toggle");
-if (localTheme) {
-    document.body.classList.remove("light-theme", "dark-theme");
-    document.body.classList.add(localTheme);
+const savedTheme = storage?.getItem("theme");
+
+// 初始化已保存主题
+if (savedTheme) {
+  document.body.classList.remove("light-theme", "dark-theme");
+  document.body.classList.add(savedTheme);
 }
+
+// 无按钮直接终止，防止报错
+if (!themeToggle) return;
+
 themeToggle.addEventListener("click", () => {
-    const themeUndefined = !new RegExp("(dark|light)-theme").test(document.body.className);
-    const isOSDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    if (themeUndefined) {
-        if (isOSDark) {
-            document.body.classList.add("light-theme");
-        } else {
-            document.body.classList.add("dark-theme");
-        }
-    } else {
-        document.body.classList.toggle("light-theme");
-        document.body.classList.toggle("dark-theme");
-    }
-    window.localStorage &&
-        window.localStorage.setItem(
-            "theme",
-            document.body.classList.contains("dark-theme") ? "dark-theme" : "light-theme",
-        );
+  const bodyClass = document.body.className;
+  const hasTheme = bodyClass.includes("light-theme") || bodyClass.includes("dark-theme");
+  const isSystemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  // 清空旧主题
+  document.body.classList.remove("light-theme", "dark-theme");
+
+  if (!hasTheme) {
+    // 首次切换：反向系统配色
+    document.body.classList.add(isSystemDark ? "light-theme" : "dark-theme");
+  } else {
+    // 已有主题：互转
+    const target = bodyClass.includes("dark-theme") ? "light-theme" : "dark-theme";
+    document.body.classList.add(target);
+  }
+
+  // 持久化存储
+  const currentTheme = document.body.classList.contains("dark-theme") 
+    ? "dark-theme" 
+    : "light-theme";
+  storage.setItem("theme", currentTheme);
 });
-// Darkmode End
