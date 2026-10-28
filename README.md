@@ -2,9 +2,12 @@
   GitHub Profile README
   仓库名必须与用户名完全一致: penndu
   访问地址: https://github.com/penndu
+
+  说明: 本版本全部使用国内可直连的图片源(shields.io / demolab / rshah),
+  不依赖 Vercel / Heroku, 避免图裂。
 -->
 
-<h1 align="center">你好,我是 TeacherDu</h1>
+<h1 align="center">你好,我是 Penndu</h1>
 <p align="center">
   <i>银河麒麟系统讲师 · Linux 服务端开发 · 自托管 Homelab 玩家</i>
 </p>
@@ -12,6 +15,7 @@
 <p align="center">
   <a href="https://dusays.com"><img src="https://img.shields.io/badge/博客-dusays.com-0D1117?style=flat-square&logo=hexo&logoColor=000000&labelColor=0D1117" alt="博客"></a>
   <a href="https://github.com/penndu"><img src="https://img.shields.io/badge/GitHub-penndu-0D1117?style=flat-square&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub"></a>
+  <img src="https://img.shields.io/github/followers/penndu?style=flat-square&label=粉丝&color=0D1117&labelColor=0D1117&logo=github" alt="粉丝">
   <img src="https://img.shields.io/badge/坐标-北京-0D1117?style=flat-square&logo=apple&logoColor=white&labelColor=0D1117" alt="北京">
 </p>
 
@@ -50,23 +54,18 @@ learning    大模型本地部署 · AIGC 工具链
 
 ---
 
-### 📊 GitHub 数据
+### 📊 连续提交
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=penndu&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=7EE787&icon_color=7EE787&text_color=C9D1D9" alt="Penndu 的 GitHub 数据">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=penndu&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=7EE787&text_color=C9D1D9" alt="常用语言">
-</p>
-
-<p align="center">
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=penndu&theme=dark&hide_border=true&background=0D1117&stroke=0D1117&ring=7EE787&fire=7EE787&currStreakLabel=7EE787&sideLabels=C9D1D9&dates=C9D1D9" alt="连续提交">
+  <img src="https://streak-stats.demolab.com/?user=penndu&theme=dark&hide_border=true&background=0D1117&stroke=0D1117&ring=7EE787&fire=7EE787&currStreakLabel=7EE787&sideLabels=C9D1D9&dates=C9D1D9" alt="连续提交">
 </p>
 
 ---
 
-### 🔥 贡献图
+### 🔥 最近一年贡献
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=penndu&theme=react-dark&hide_border=true&bg_color=0D1117&color=7EE787&line=7EE787&point=FFFFFF" alt="贡献活跃度">
+  <img src="https://ghchart.rshah.org/7EE787/penndu" alt="Penndu 的贡献图" />
 </p>
 
 ---
