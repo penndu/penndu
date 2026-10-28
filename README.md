@@ -13,7 +13,6 @@
 <p align="center">
   <a href="https://dusays.com"><img src="https://img.shields.io/badge/博客-dusays.com-0D1117?style=flat-square&logo=hexo&logoColor=000000&labelColor=0D1117" alt="博客"></a>
   <a href="https://github.com/penndu"><img src="https://img.shields.io/badge/GitHub-penndu-0D1117?style=flat-square&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub"></a>
-  <img src="https://img.shields.io/github/followers/penndu?style=flat-square&label=粉丝&color=0D1117&labelColor=0D1117&logo=github" alt="粉丝">
   <img src="https://img.shields.io/badge/坐标-北京-0D1117?style=flat-square&logo=apple&logoColor=white&labelColor=0D1117" alt="北京">
 </p>
 
