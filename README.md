@@ -1,13 +1,11 @@
 <!--
   GitHub Profile README
-  仓库名必须与用户名完全一致: penndu
+  仓库名必须与登录名完全一致: penndu
   访问地址: https://github.com/penndu
-
-  说明: 本版本全部使用国内可直连的图片源(shields.io / demolab / rshah),
-  不依赖 Vercel / Heroku, 避免图裂。
+  本版本全部使用国内可直连的图片源, 不依赖 Vercel / Heroku。
 -->
 
-<h1 align="center">你好,我是 Penndu</h1>
+<h1 align="center">你好,我是 TeacherDu</h1>
 <p align="center">
   <i>银河麒麟系统讲师 · Linux 服务端开发 · 自托管 Homelab 玩家</i>
 </p>
@@ -65,7 +63,7 @@ learning    大模型本地部署 · AIGC 工具链
 ### 🔥 最近一年贡献
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/7EE787/penndu" alt="Penndu 的贡献图" />
+  <img src="https://ghchart.rshah.org/7EE787/penndu" alt="TeacherDu 的贡献图" />
 </p>
 
 ---
