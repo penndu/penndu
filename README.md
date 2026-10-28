@@ -4,7 +4,7 @@
   访问地址: https://github.com/penndu
 -->
 
-<h1 align="center">你好,我是 Penndu</h1>
+<h1 align="center">你好,我是 TeacherDu</h1>
 <p align="center">
   <i>银河麒麟系统讲师 · Linux 服务端开发 · 自托管 Homelab 玩家</i>
 </p>
